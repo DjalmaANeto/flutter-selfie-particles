@@ -29,7 +29,7 @@ jobs:
           cache: true
 
       - name: Ensure Android platform scaffolding
-        run: flutter create . --platforms=android --org com.example
+        run: flutter create --project-name selfie_particles_3d . --platforms=android --org com.example
 
       - name: Install dependencies
         run: flutter pub get
